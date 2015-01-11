@@ -32,6 +32,6 @@ with(data, {
 }) 
 
  
-31 ## Saving to file 
-32 dev.copy(png, file="plot4.png", height=480, width=480) 
-33 dev.off() 
+## Saving to file 
+dev.copy(png, file="plot4.png", height=480, width=480) 
+dev.off() 
